@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#the-list {
+  width: 810px;
+  padding: 0;
+  height: 220000px;
+}
+
+.wrapper {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  bottom: 0;
+}
+
+.item {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
